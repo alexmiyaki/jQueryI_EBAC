@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/158ec2fe63.js" crossorigin="anonymous"></script>
+        
     <title>Mika Store</title>
 
 </head>
@@ -26,8 +29,6 @@
                         <h3>Coleções &#x25BE;</h3>
                             <ul class="dropdown-menu" id="colecoesMenu">
                                 <li><a class="dropdown-item" href="inverno.html"> Inverno</a></li>
-                                <li><a class="dropdown-item" href="verao.html"> Verão</a></li>
-                                <li><a class="dropdown-item" href="adidas.html"> Adidas Collection</a></li>
                             </ul>
                     </li>
                     <li class="dropdown" id="contato">
@@ -40,11 +41,38 @@
                 </ul>
             </div>
     </header>
-    <section>
+    <section class="container sectionInverno">
         <div class="container">
-            <div class="product-card">
-                <div class="product-photo">
-                    
+            <div class="row">
+                <div class="product-card">
+                    <div class="product-photo inverno1"></div>
+                    <div class='product-details'>
+                        <h4>Jaqueta Oversized</h4>
+                    </div>
+                    <div class='more-details-button'>
+                        <p>R$399,00</p>
+                        <p><i class="fa-solid fa-circle-right"></i></p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-photo inverno2"></div>
+                    <div class='product-details'>
+                        <h4>Moletom Oversized</h4>
+                    </div>
+                    <div class='more-details-button'>
+                        <p>R$299,00</p>
+                        <p><i class="fa-solid fa-circle-right"></i></p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-photo inverno3"></div>
+                    <div class='product-details'>
+                        <h4>Moletom Branco Oversized</h4>
+                    </div>
+                    <div class='more-details-button'>
+                        <p>R$299,00</p>
+                        <p><i class="fa-solid fa-circle-right"></i></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,6 +85,7 @@
         <p>Todos os Direitos Rervados - Mika Store&reg;</p>
         </div>
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>

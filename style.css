@@ -24,6 +24,57 @@ header {
     text-decoration: none;
 }
 
+.product-card {
+    margin: 2.5em 3em;
+    width: 15em;
+    height: 337px;
+    border: 1px solid black;
+    border-radius: 10px;
+ }
+
+
+.product-card .inverno1 {
+    background-image: url("./images/inverno1.jpg"); 
+}
+
+.product-card .inverno2 {
+    background-image: url("./images/inverno2.jpg"); 
+}
+
+.product-card .inverno3 {
+    background-image: url("./images/inverno3.jpg");
+}
+
+.product-card .inverno1,
+.product-card .inverno2,
+.product-card .inverno3 {
+  background-position: center;
+  height: 20em;
+  transition: 0.2s; 
+}
+
+.product-card .product-details {
+    margin-top: 20px;
+    display: flex;
+    width: 20em;
+}
+
+.more-details-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.sectionInverno {
+    height: 500px;
+}
+
+
+h4 {
+    font-size: 1em;
+}
+
 header ul {
     color: white;
     display: flex;
